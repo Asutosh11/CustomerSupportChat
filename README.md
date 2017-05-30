@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/Asutosh11/CustomerSupportChat.svg)](https://jitpack.io/#Asutosh11/CustomerSupportChat)
 # CustomerSupportChat
 
 Add the dependency to your build.gradle
@@ -27,7 +28,7 @@ mChatConnection.setxmppHostName("asutosh.p1.im");
 mChatConnection.setxmppServiceName("asutosh.p1.im");
 mChatConnection.setxmppIdOfSupportExecutive("test2@asutosh.p1.im");
 mChatConnection.setchatWindowTitle("Support chat window");
-ChatActivity.startChat(mChatConnection, MainActivity.this)
+ChatActivity.startChat(mChatConnection, MainActivity.this);
 ```
 
 
