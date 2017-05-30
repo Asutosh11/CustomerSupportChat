@@ -1,5 +1,14 @@
 [![](https://jitpack.io/v/Asutosh11/CustomerSupportChat.svg)](https://jitpack.io/#Asutosh11/CustomerSupportChat)
-# CustomerSupportChat
+# Android CustomerSupportChat Library
+This is a Customer Chat library that you can add to your Android applications. 
+
+<b>How it works?</b>
+You need to enter your XMPP server details, details of your user's XMPP account and XMPP id of the customer support executive sitting somewhere else on an XMPP client.
+The library opens a chat window for your app user and a customer support executive to chat.
+
+<b>Screenshot</b>
+![Screenshot](https://github.com/Asutosh11/CustomerSupportChat/blob/master/screenshot1.jpg "")
+
 
 Add the dependency to your build.gradle
 
