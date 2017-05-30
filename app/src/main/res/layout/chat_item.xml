@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/chat_room_background"
+
+    >
+
+   <LinearLayout
+       android:layout_margin="10dp"
+       android:padding="10dp"
+       android:id="@+id/messageSent"
+       android:layout_gravity="right"
+       android:gravity="right"
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/chat_bubble_me"
+       >
+
+       <TextView
+           android:textSize="14sp"
+           android:id="@+id/sent_string"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="sent from xml"
+           android:textColor="@color/black"
+           />
+
+       <com.github.curioustechizen.ago.RelativeTimeTextView
+           android:id="@+id/sent_date"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="10sp"
+           />
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:id="@+id/messageGot"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_bubble_friend"
+        >
+
+        <TextView
+            android:textSize="14sp"
+            android:id="@+id/got_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="got from xml"
+            android:visibility="visible"
+            android:textColor="@color/black"
+            />
+
+        <com.github.curioustechizen.ago.RelativeTimeTextView
+            android:id="@+id/got_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            />
+
+    </LinearLayout>
+
+    <!--<TextView
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/messageHidden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="got from xml"
+        android:visibility="visible"
+        android:layout_gravity="left"
+        android:background="@drawable/chat_bubble_friend"
+        android:textColor="@color/black"
+        />-->
+</LinearLayout>

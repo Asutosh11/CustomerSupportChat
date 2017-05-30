@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#9f9f9f</color>
+    <color name="chat_bubble_friend">#d8d7d7</color>
+    <color name="chat_bubble_me">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="chat_room_background">#e3ecf4</color>
+</resources>

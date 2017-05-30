@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-extensions/4.1.0/b0968f9b209feb2f51d1a1e72238989271750625/smack-extensions-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b0968f9b209feb2f51d1a1e72238989271750625">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/smack-extensions-4.1.0_04feb04280df0b8e87129e3d9104c71284ac8778.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-util-cache/0.4.2-beta1/43e2a81f52600639daeb02ede60cc498a13614a5/jxmpp-util-cache-0.4.2-beta1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43e2a81f52600639daeb02ede60cc498a13614a5">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/jxmpp-util-cache-0.4.2-beta1_06adfa8694ba4827ef7f9b3eb7627e057cbc1907.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.android/build-cache/f76cd5443c31b126cec16f818eefdda4d2074663/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/classes_a9a0f80d57c13c6d2ec0f72a279e1eee4ae52402.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.gradle/caches/modules-2/files-2.1/de.measite.minidns/minidns/0.1.7/993582d1455b93a5723d2af4b39d8679735b3550/minidns-0.1.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="993582d1455b93a5723d2af4b39d8679735b3550">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/minidns-0.1.7_be7c5867a54d0ae8086443e00e82ed7301412cee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.android/build-cache/c42b1168fe17a2fe5f7688176664295b68d16e3a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/classes_90d86db2b0c7566dab843ca0b4d9ec253ebf089b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.android/build-cache/6599634235747d01defa3937519f85bc50052834/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/classes_b8d27fcf4cd793fa95c7f1419251837feaa0a509.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-resolver-minidns/4.1.0/5b8783270e55f49937492b23df34993c4e51c8d7/smack-resolver-minidns-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5b8783270e55f49937492b23df34993c4e51c8d7">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/smack-resolver-minidns-4.1.0_625dad9dfafa802bfcf09cece0e9f945ff0d65c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-core/4.1.0/ad5c17dc5fe7f383118c5a3f1818b8789b697930/smack-core-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ad5c17dc5fe7f383118c5a3f1818b8789b697930">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/smack-core-4.1.0_27f341bd0036d11e8489aa70e8ce3f0ce087e57d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-android-extensions/4.1.0/355b8e606f77ae354e86a84755d2dab9f7536121/smack-android-extensions-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="355b8e606f77ae354e86a84755d2dab9f7536121">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/smack-android-extensions-4.1.0_ea9803e4a7c996e61a527f3f1c1c8a581e5c37b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.android/build-cache/00a68fd4c66b89372100c04d889e298ee0bdbba2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/classes_a7deb0163b736bf49d4ffba3ccd1e583e7f58813.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.android/build-cache/b5e3d90275fbb2c7b5134a60d03ba10e79778728/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/classes_32f93a08299d5fb95743988949d8b9a4af48bf01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.android/build-cache/1d15ad11d1a07ad5f7da7d4e8994026bb042ca2f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/classes_92bff6280619e701eb5b1bb11efb4cd0972c360b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-sasl-provided/4.1.0/74422a92b7bba8eb633ceecdb017530b67451731/smack-sasl-provided-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="74422a92b7bba8eb633ceecdb017530b67451731">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/smack-sasl-provided-4.1.0_c0fbce9458fdb783805db4adeb7d2e2a7c58cf47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.android/build-cache/80b84db26709e28be71b31942a368b17d1a5c2d0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/classes_cc646cb334f7b2097df62d60d6a9bf6ce1933109.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-core/0.4.2-beta1/14ade1a89b0f6db4fa481f9f8a721cdec69374de/jxmpp-core-0.4.2-beta1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="14ade1a89b0f6db4fa481f9f8a721cdec69374de">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/jxmpp-core-0.4.2-beta1_316bcece089e10299187d76de0e5426c4209cdeb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.android/build-cache/fb720a1809a03b0f32a0a76a81bdcec02c12133f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/classes_48488ff86dc52539141660c49431d7ac4b1c330a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.android/build-cache/aa5c68fcf846223a436b0e488d90a97e7094b47e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/classes_dc0cc1064ef61f511f2a18b04e922117a87753be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.android/build-cache/307f99d56b6ae0a4e989527b7ca72bbe0c08e0c6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3602395f624dcee44c338a32d8c8779b94b0d7c">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/classes_53aaf94c8a23783673aed3b7da278695a32a4ae0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-tcp/4.1.0/b5043991d7ed52da15089fcfcbca1dd862d1af42/smack-tcp-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b5043991d7ed52da15089fcfcbca1dd862d1af42">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/smack-tcp-4.1.0_d4bd76b3af7f2117b15f69d820544609f5d91015.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-im/4.1.0/4b6d736ad02f64ba54f4a5712a4a453a2c3848b1/smack-im-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b6d736ad02f64ba54f4a5712a4a453a2c3848b1">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/smack-im-4.1.0_7ad4e822cfc5464101064d058ec56f2f09a02be3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-android/4.1.0/3da1ad907fe8eb0db80471b8837d3e51690fe13c/smack-android-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3da1ad907fe8eb0db80471b8837d3e51690fe13c">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/smack-android-4.1.0_81979027a33464db555b2aa3538aaa94ed8b3397.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_c2e4f75c9920b3aef5761141adff8784f5b02191.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.android/build-cache/7e3902b44a4dd5680e61869a9769b41a63dc8eff/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/classes_1c8fc91b0bb028b5d2b80bedacd3e4672f79e9f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.android/build-cache/117c16805783f0fb8c4b37a3684465eec976c138/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/classes_25cb73ec3f8f0fc6c6f30f51c75de13bdd013169.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/appy-android/.android/build-cache/da2354a6a571cfbf2ca0f845506bc5305772f138/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/appy-android/Documents/Libraries/XMPPchatLibrary/app/build/intermediates/pre-dexed/debug/classes_69f9510578fa3d1d2f543e50ffbfca6cab161ac8.jar" />
+    </item>
+
+</items>
