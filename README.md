@@ -44,6 +44,8 @@ mChatConnection.setxmppServiceName("asutosh.p1.im");
 mChatConnection.setxmppIdOfSupportExecutive("test2@asutosh.p1.im");
 mChatConnection.setchatWindowTitle("Support chat window");
 ChatActivity.startChat(mChatConnection, MainActivity.this);
+
+<hr>
 ```
 
 
