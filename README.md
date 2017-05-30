@@ -11,6 +11,7 @@ The library opens a chat window for your app user and a customer support executi
 <img src="https://github.com/Asutosh11/CustomerSupportChat/blob/master/screenshot1.jpg" alt="Screenshot" width="300px"/>
 </kbd>
 
+
 <b>Usage</b>
 
 1. Add the dependency to your build.gradle
@@ -48,5 +49,4 @@ ChatActivity.startChat(mChatConnection, MainActivity.this);
 
  * [Smack](https://github.com/igniterealtime/Smack)
  * [android-ago](https://github.com/curioustechizen/android-ago)
-
 
