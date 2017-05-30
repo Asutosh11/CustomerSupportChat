@@ -12,7 +12,7 @@ The library opens a chat window for your app user and a customer support executi
 </kbd>
 
 <br>
-<b>Usage</b>
+<b>Usage</b><br>
 
 1. Add the dependency to your build.gradle
 
