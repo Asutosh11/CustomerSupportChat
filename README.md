@@ -7,8 +7,9 @@ You need to enter your XMPP server details, details of your user's XMPP account 
 The library opens a chat window for your app user and a customer support executive to chat.
 
 <b>Screenshot</b><br>
+<kbd>
 <img src="https://github.com/Asutosh11/CustomerSupportChat/blob/master/screenshot1.jpg" alt="Screenshot" width="300px"/>
-
+</kbd>
 
 Add the dependency to your build.gradle
 
