@@ -1,6 +1,6 @@
 [![](https://jitpack.io/v/Asutosh11/CustomerSupportChat.svg)](https://jitpack.io/#Asutosh11/CustomerSupportChat)
 # Android Customer Support Chat Library
-This is a Customer support chat library that you can add to your Android applications. 
+This is a Customer support chat library built over Smack that you can add to your Android applications. 
 
 <b>How it works?</b><br>
 You need to enter your XMPP server details, details of your user's XMPP account and XMPP id of the customer support executive sitting somewhere else on an XMPP client.
