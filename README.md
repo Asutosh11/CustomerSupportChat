@@ -2,6 +2,9 @@
 # Android Customer Support Chat Library
 This is a Customer support chat library built over Smack that you can add to your Android applications. 
 
+Once I was in search of a customer support chat library that I could embed in my Android app easily without writing much code and without taking much time.
+I couldn't find any. So later I made this library to accomplish that task. Try using it. Try experimenting with it.
+
 <b>How it works?</b><br>
 You need to enter your XMPP server details, details of your user's XMPP account and XMPP id of the customer support executive sitting somewhere else on an XMPP client.
 The library opens a chat window for your app user and the customer support executive to chat.
