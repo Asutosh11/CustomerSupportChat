@@ -3,14 +3,16 @@
 Add the dependency to your build.gradle
 
  ```
- 	allprojects {
-		repositories {
-			maven { url 'https://jitpack.io' }
-		}
-	}
-    dependencies {
-	        compile 'com.github.Asutosh11:CustomerSupportChat:1.0'
-	}
+allprojects {
+    repositories {
+        maven {
+            url 'https://jitpack.io'
+        }
+    }
+}
+dependencies {
+    compile 'com.github.Asutosh11:CustomerSupportChat:1.0'
+}
 
  ```
 
@@ -30,8 +32,6 @@ ChatActivity.startChat(mChatConnection, MainActivity.this)
 
 
 ### Thanks
-<hr>
 
  * [Smack](https://github.com/igniterealtime/Smack)
- * [android-ago
-](https://github.com/curioustechizen/android-ago)
+ * [android-ago](https://github.com/curioustechizen/android-ago)
