@@ -1,4 +1,5 @@
 [![](https://jitpack.io/v/Asutosh11/CustomerSupportChat.svg)](https://jitpack.io/#Asutosh11/CustomerSupportChat)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Android%20Customer%20Support%20Chat%20library-blue.svg?style=flat)](https://android-arsenal.com/details/1/5847)
 # Android Customer Support Chat Library
 This is a Customer support chat library built using Smack API that you can add to your Android applications. 
 
