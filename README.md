@@ -55,3 +55,7 @@ ChatActivity.startChat(mChatConnection, MainActivity.this);
  * [Smack](https://github.com/igniterealtime/Smack)
  * [android-ago](https://github.com/curioustechizen/android-ago)
 
+
+### License
+
+<a href = 'https://github.com/Asutosh11/CustomerSupportChat/blob/master/LICENSE.md'>Apache License 2.0</a>
