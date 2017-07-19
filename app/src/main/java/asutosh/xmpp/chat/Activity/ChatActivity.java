@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -18,7 +19,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 
-
 import org.jivesoftware.smack.AbstractXMPPConnection;
 import org.jivesoftware.smack.ConnectionConfiguration;
 import org.jivesoftware.smack.SmackException;
@@ -28,9 +28,10 @@ import org.jivesoftware.smack.chat.ChatMessageListener;
 import org.jivesoftware.smack.packet.Message;
 import org.jivesoftware.smack.tcp.XMPPTCPConnection;
 import org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration;
-
+import org.jxmpp.jid.EntityJid;
+import org.jxmpp.jid.impl.JidCreate;
+import org.jxmpp.stringprep.XmppStringprepException;
 import java.io.IOException;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -57,6 +58,7 @@ public class ChatActivity extends AppCompatActivity {
     private LinearLayout ll_chat_window;
     private Button btn_retry;
     private ChatConnection mChatConnection;
+    private EntityJid friendJID;
 
     private List<Chat> chatsList = new ArrayList<Chat>();
     private String username, password, port, serviceName, host, friendID;
@@ -100,7 +102,6 @@ public class ChatActivity extends AppCompatActivity {
         }
 
         registerListeners();
-
     }
 
 
@@ -205,6 +206,8 @@ public class ChatActivity extends AppCompatActivity {
 
                     } catch (SmackException.NotConnectedException notConnectedException) {
                         notConnectedException.printStackTrace();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
                     }
                 }
                 else{
@@ -222,6 +225,7 @@ public class ChatActivity extends AppCompatActivity {
         btn_retry.setVisibility(View.GONE);
         pb_progressbar.setVisibility(View.VISIBLE);
         new ConnectToXMPPserver().execute();
+
     }
 
 
@@ -238,24 +242,30 @@ public class ChatActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(Object... params) {
 
+            try {
+
             // Create a connection to the XMPP chat server on a specific port.
             mConfiguration = XMPPTCPConnectionConfiguration.builder()
                     .setUsernameAndPassword(username, password)
                     .setHost(host)
                     .setSecurityMode(ConnectionConfiguration.SecurityMode.disabled)
-                    .setServiceName(serviceName)
+                    .setXmppDomain(JidCreate.domainBareFrom(serviceName))
                     .setPort(Integer.parseInt(port))
+                    .setDebuggerEnabled(true)
                     .build();
 
-            try {
+
                 mConnection = new XMPPTCPConnection(mConfiguration);
                 mConnection.connect();
                 mConnection.login();
+
             } catch (SmackException e) {
                 e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
             } catch (XMPPException e) {
+                e.printStackTrace();
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
 
@@ -273,33 +283,38 @@ public class ChatActivity extends AppCompatActivity {
             super.onPostExecute(result);
 
             if(result.equals("connected")){
-                ConnectedMessage();
+                try {
+                    ConnectedMessage();
 
-                pb_progressbar.setVisibility(View.GONE);
-                ll_chat_window.setVisibility(View.VISIBLE);
+                    pb_progressbar.setVisibility(View.GONE);
+                    ll_chat_window.setVisibility(View.VISIBLE);
 
-                mChatmanager = mChatmanager.getInstanceFor(mConnection);
-                mChat = mChatmanager.createChat(friendID, new ChatMessageListener() {
-                    public void processMessage(org.jivesoftware.smack.chat.Chat chat, Message message) {
+                    mChatmanager = mChatmanager.getInstanceFor(mConnection);
+                    friendJID = (EntityJid) JidCreate.from(friendID);
+                    mChat = mChatmanager.createChat(friendJID, new ChatMessageListener() {
+                        public void processMessage(org.jivesoftware.smack.chat.Chat chat, Message message) {
 
-                // receiving the chat message from the support executive
-                        if(!message.getBody().trim().equals("")){
-                            mChatFunctionModel = new Chat();
-                            mChatFunctionModel.setGotMessage(message.getBody());
-                            mChatFunctionModel.setGotTime(new Date().getTime());
-                            mChatFunctionModel.setSentMessage("");
-                            chatsList.add(mChatFunctionModel);
+                    // receiving the chat message from the support executive
+                            if(!message.getBody().trim().equals("")){
+                                mChatFunctionModel = new Chat();
+                                mChatFunctionModel.setGotMessage(message.getBody());
+                                mChatFunctionModel.setGotTime(new Date().getTime());
+                                mChatFunctionModel.setSentMessage("");
+                                chatsList.add(mChatFunctionModel);
 
-                            runOnUiThread(new Runnable() {
-                                public void run() {
-                                    mAdapter.notifyDataSetChanged();
-                                    mRecyclerView.smoothScrollToPosition(chatsList.size());
-                                    et_msgToBeSent.setFocusable(true);
-                                }
-                            });
+                                runOnUiThread(new Runnable() {
+                                    public void run() {
+                                        mAdapter.notifyDataSetChanged();
+                                        mRecyclerView.smoothScrollToPosition(chatsList.size());
+                                        et_msgToBeSent.setFocusable(true);
+                                    }
+                                });
+                            }
                         }
-                    }
-                });
+                    });
+                } catch (XmppStringprepException e) {
+                    e.printStackTrace();
+                }
             }
             else{
                 cannotConnectMessage();
@@ -383,4 +398,8 @@ public class ChatActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-}
+
+
+
+ }
+
