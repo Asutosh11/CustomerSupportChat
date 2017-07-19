@@ -10,9 +10,13 @@ I couldn't find any. So later I made this library to accomplish that task. Try u
 You need to enter your XMPP server details, details of your user's XMPP account and XMPP id of the customer support executive sitting somewhere else on an XMPP client.
 The library opens a chat window for your app user and the customer support executive to chat.
 
-<b>Screenshot</b><br>
+<b>Screenshots</b><br><br>
 <kbd>
-<img src="https://github.com/Asutosh11/CustomerSupportChat/blob/master/screenshot1.jpg" alt="Screenshot" width="300px"/>
+<img src="https://github.com/Asutosh11/CustomerSupportChat/blob/master/screenshot1.jpg" alt="Screenshot1" width="300px"/>
+</kbd>
+&nbsp; &nbsp;
+<kbd>
+<img src="https://github.com/Asutosh11/CustomerSupportChat/blob/master/screenshot2.jpg" alt="Screenshot2" width="300px"/>
 </kbd>
 
 <br>
