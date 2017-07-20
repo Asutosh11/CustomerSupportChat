@@ -35,7 +35,7 @@ allprojects {
     }
 }
 dependencies {
-    compile 'com.github.Asutosh11:CustomerSupportChat:1.0'
+    compile 'com.github.Asutosh11:CustomerSupportChat:1.1'
 }
 
  ```
