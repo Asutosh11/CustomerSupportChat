@@ -2,6 +2,7 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Android%20Customer%20Support%20Chat%20library-blue.svg?style=flat)](https://android-arsenal.com/details/1/5847)
 # Android Customer Support Chat Library
 This is a Customer support chat library built using Smack API that you can add to your Android applications. 
+(Please note that I'm working on coverting the architecture of this library to MVVM, will notify when its done)
 
 Once I was in search of a customer support chat library that I could embed in my Android app easily without writing much code and without taking much time.
 I couldn't find any. So later I made this library to accomplish that task. Try using it. Try experimenting with it.
