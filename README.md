@@ -27,7 +27,7 @@ The library opens a chat window for your app user and the customer support execu
 
 1. Add the dependency to your build.gradle
 
- ```
+```
 allprojects {
     repositories {
         maven {
@@ -36,10 +36,9 @@ allprojects {
     }
 }
 dependencies {
-    compile 'com.github.Asutosh11:CustomerSupportChat:1.1'
+    implementation 'com.github.Asutosh11:CustomerSupportChat:1.1'
 }
-
- ```
+```
 
 2. This is how you use it
 
@@ -60,7 +59,6 @@ ChatActivity.startChat(mChatConnection, MainActivity.this);
 
  * [Smack](https://github.com/igniterealtime/Smack)
  * [android-ago](https://github.com/curioustechizen/android-ago)
-
 
 ### License
 
